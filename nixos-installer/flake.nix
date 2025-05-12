@@ -1,5 +1,5 @@
 {
-  description = "NixOS configuration of Ryan Yin";
+  description = "NixOS configuration of Manu";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
@@ -15,6 +15,29 @@
     ...
   }: {
     nixosConfigurations = {
+      nixosryanai = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        specialArgs =
+          inputs
+          // {
+            myvars.username = "manu";
+            myvars.userfullname = "emmanuel vargas";
+          };
+        modules = [
+          {networking.hostName = "nixosryanai";}
+
+          ./configuration.nix
+
+          ../modules/base.nix
+          ../modules/nixos/base/i18n.nix
+          ../modules/nixos/base/user-group.nix
+          ../modules/nixos/base/networking.nix
+
+          ../hosts/nixosryanai/hardware-configuration.nix
+          ../hosts/nixosryanai/impermanence.nix
+        ];
+      };
+
       ai = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         specialArgs =

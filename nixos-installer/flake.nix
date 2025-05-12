@@ -23,6 +23,11 @@
             myvars.username = "manu";
             myvars.userfullname = "emmanuel vargas";
             myvars.initialHashedPassword = "$7$CU..../....w4NiIh5VZ1PK2xVIBE7570$0KzFUCpIYRzhqSKqyGMASO1fEuN6R7xBX.56ssXeWV7";
+            myvars.sshAuthorizedKeys = [
+              "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJc9R8O3PZTpwi6RIqci41CnGuwjs1NxYxpoJ5ZV4LDp vargas@lonitx-vm-ubuntu"
+              "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINjaVclo7DZzoNgTowU5PQaTIXclfhTO9yizIIFjd25Y emmanuel.vargas@iress.com"
+              "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEG9sbnm7GF7LQ/csbk729YUlu89TSY2mLDmla/tgKGc emmanuel.vargas@gmail.com"
+            ];
           };
         modules = [
           {networking.hostName = "nixosryanai";}

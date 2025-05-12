@@ -2,7 +2,7 @@
   description = "NixOS configuration of Manu";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     impermanence.url = "github:nix-community/impermanence";
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     nuenv.url = "github:DeterminateSystems/nuenv";
@@ -22,6 +22,7 @@
           // {
             myvars.username = "manu";
             myvars.userfullname = "emmanuel vargas";
+            myvars.initialHashedPassword = "$7$CU..../....w4NiIh5VZ1PK2xVIBE7570$0KzFUCpIYRzhqSKqyGMASO1fEuN6R7xBX.56ssXeWV7";
           };
         modules = [
           {networking.hostName = "nixosryanai";}

@@ -20,11 +20,11 @@
     # db related
     pkgs-unstable.mycli
     pkgs-unstable.pgcli
-    mongosh
+    #mongosh
     sqlite
 
     # embedded development
-    minicom
+    #minicom
 
     # ai related
     pkgs-unstable.python313Packages.huggingface-hub # huggingface-cli
@@ -32,16 +32,16 @@
     # misc
     pkgs-unstable.devbox
     bfg-repo-cleaner # remove large files from git history
-    k6 # load testing tool
+    #k6 # load testing tool
     protobuf # protocol buffer compiler
 
     # solve coding extercises - learn by doing
-    exercism
+    #exercism
 
     # Automatically trims your branches whose tracking remote refs are merged or gone
     # It's really useful when you work on a project for a long time.
-    git-trim
-    gitleaks
+    #git-trim
+    #gitleaks
 
     # need to run `conda-install` before using it
     # need to run `conda-shell` before using command `conda`

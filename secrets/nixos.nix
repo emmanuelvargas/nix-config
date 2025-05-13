@@ -132,6 +132,12 @@ in {
           }
           // user_readable;
 
+        "ryan4yin-gpg-keys-2014-01-27.pub" =
+          {
+            file = "${mysecrets}/ryan4yin-gpg-keys-2014-01-27.pub.age";
+          }
+          // user_readable;
+
         # alias-for-work
         "alias-for-work.nushell" =
           {

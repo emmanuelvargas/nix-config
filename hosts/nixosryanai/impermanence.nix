@@ -128,7 +128,7 @@
         "go"
         ".cargo" # rust
         ".m2" # maven
-        ".gradle" # gradle
+        #".gradle" # gradle
 
         # neovim plugins(wakatime & copilot)
         ".wakatime"

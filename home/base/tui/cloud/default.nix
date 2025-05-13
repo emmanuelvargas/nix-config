@@ -16,22 +16,22 @@
     # pulumiPackages.pulumi-language-python
     # pulumiPackages.pulumi-language-nodejs
 
-    # aws
-    awscli2
-    ssm-session-manager-plugin # Amazon SSM Session Manager Plugin
-    aws-iam-authenticator
-    eksctl
+    # # aws
+    # awscli2
+    # ssm-session-manager-plugin # Amazon SSM Session Manager Plugin
+    # aws-iam-authenticator
+    # eksctl
 
-    # aliyun
-    aliyun-cli
-    # digitalocean
-    doctl
+    # # aliyun
+    # aliyun-cli
+    # # digitalocean
+    # doctl
     # google cloud
     google-cloud-sdk
 
     # cloud tools that nix do not have cache for.
-    terraform
-    terraformer # generate terraform configs from existing cloud resources
-    packer # machine image builder
+    # terraform
+    # terraformer # generate terraform configs from existing cloud resources
+    # packer # machine image builder
   ];
 }

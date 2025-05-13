@@ -21,11 +21,11 @@
       alejandra # Nix Code Formatter
 
       #-- nickel lang
-      nickel
+      #nickel
 
       #-- json like
       # terraform  # install via brew on macOS
-      terraform-ls
+      #terraform-ls
       jsonnet
       jsonnet-language-server
       taplo # TOML language server / formatter / validator
@@ -40,7 +40,7 @@
       marksman # language server for markdown
       glow # markdown previewer
       pandoc # document converter
-      pkgs-unstable.hugo # static site generator
+      #pkgs-unstable.hugo # static site generator
 
       #-- sql
       sqlfluff
@@ -105,10 +105,10 @@
 
       # -- java
       jdk17
-      gradle
-      maven
-      spring-boot-cli
-      jdt-language-server
+      #gradle
+      #maven
+      #spring-boot-cli
+      #jdt-language-server
 
       #-- zig
       zls

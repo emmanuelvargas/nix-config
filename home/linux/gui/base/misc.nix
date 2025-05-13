@@ -10,7 +10,7 @@
     foliate
 
     # instant messaging
-    telegram-desktop
+    #telegram-desktop
     # discord # update too frequently, use the web version instead
 
     # remote desktop(rdp connect)

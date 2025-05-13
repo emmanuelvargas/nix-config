@@ -7,16 +7,16 @@ in {
   nixpkgs.overlays = [
     (_: super: {
       firejailed = {
-        steam = firejailWrapper {
-          name = "steam-firejailed";
-          executable = "${super.steam}/bin/steam";
-          profile = "${super.firejail}/etc/firejail/steam.profile";
-        };
-        steam-run = firejailWrapper {
-          name = "steam-run-firejailed";
-          executable = "${super.steam}/bin/steam-run";
-          profile = "${super.firejail}/etc/firejail/steam.profile";
-        };
+        # steam = firejailWrapper {
+        #   name = "steam-firejailed";
+        #   executable = "${super.steam}/bin/steam";
+        #   profile = "${super.firejail}/etc/firejail/steam.profile";
+        # };
+        # steam-run = firejailWrapper {
+        #   name = "steam-run-firejailed";
+        #   executable = "${super.steam}/bin/steam-run";
+        #   profile = "${super.firejail}/etc/firejail/steam.profile";
+        # };
 
         # firefox = firejailWrapper {
         #   name = "firefox-firejailed";

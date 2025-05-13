@@ -76,7 +76,7 @@
         # misc
         ".config/pulse"
         ".pki"
-        ".steam" # steam games
+        # ".steam" # steam games
 
         # cloud native
         {

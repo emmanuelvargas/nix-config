@@ -71,13 +71,13 @@ in {
         "/etc/egl"
         "/etc/static/egl"
       ];
-      bind.dev = [
-        # seems required when using nvidia as primary gpu
-        "/dev/nvidia0"
-        "/dev/nvidiactl"
-        "/dev/nvidia-modeset"
-        "/dev/nvidia-uvm"
-      ];
+      # bind.dev = [
+      #   # seems required when using nvidia as primary gpu
+      #   "/dev/nvidia0"
+      #   "/dev/nvidiactl"
+      #   "/dev/nvidia-modeset"
+      #   "/dev/nvidia-uvm"
+      # ];
 
       env = {
         XDG_DATA_DIRS = lib.mkForce (lib.makeSearchPath "share" [

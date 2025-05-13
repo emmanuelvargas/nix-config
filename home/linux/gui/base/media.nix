@@ -13,7 +13,7 @@
     pulsemixer
     imv # simple image viewer
 
-    nvtopPackages.full
+    # nvtopPackages.full
 
     # video/audio tools
     # cava # for visualizing audio

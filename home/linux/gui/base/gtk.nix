@@ -12,15 +12,15 @@
     x11.enable = true;
     package = pkgs.bibata-cursors;
     name = "Bibata-Modern-Ice";
-    size = 24;
+    size = 16;
   };
 
   # set dpi for 4k monitor
   xresources.properties = {
-    # dpi for Xorg's font
-    "Xft.dpi" = 150;
-    # or set a generic dpi
-    "*.dpi" = 150;
+    # # dpi for Xorg's font
+    # "Xft.dpi" = 150;
+    # # or set a generic dpi
+    # "*.dpi" = 150;
   };
 
   # gtk's theme settings, generate files:

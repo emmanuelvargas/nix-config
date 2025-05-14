@@ -4,7 +4,7 @@ let
   };
 in {
   programs.zellij = {
-    enable = true;
+    enable = false;
   };
   # only works in bash/zsh, not nushell
   home.shellAliases = shellAliases;

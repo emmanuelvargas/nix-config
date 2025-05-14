@@ -2,7 +2,7 @@
   mainGateway = "192.168.0.254"; # main router
   # use suzi as the default gateway
   # it's a subrouter with a transparent proxy
-  defaultGateway = "192.168.0.254";
+  #defaultGateway = "192.168.0.254";
   nameservers = [
     "8.8.8.8" # google
     "192.168.0.103" # internal DNS server

@@ -9,7 +9,7 @@
         #   1.5:          scale to 1.5 times
         #   bitdepth,10:  enable 10 bit support
         # monitor = "DP-2,highres,auto,1.5,bitdepth,10";
-        monitor = "";
+        monitor = "Virtual-1,1920x1080@60, 0x0, 1";
       };
     };
   };

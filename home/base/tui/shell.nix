@@ -24,7 +24,7 @@ in {
     # currently, nushell does not support conditional sourcing of files
     # https://github.com/nushell/nushell/issues/8214
     extraConfig = ''
-      source /etc/agenix/alias-for-work.nushell
+      #source /etc/agenix/alias-for-work.nushell
 
       # Directories in this constant are searched by the
       # `use` and `source` commands.

@@ -73,10 +73,10 @@ in {
           enable = true;
           displayManager = {
             lightdm.enable = true;
-            autoLogin = {
-              enable = true;
-              user = myvars.username;
-            };
+            # autoLogin = {
+            #   enable = true;
+            #   user = myvars.username;
+            # };
             # use a fake session to skip desktop manager
             # and let Home Manager take care of the X session
             defaultSession = "hm-session";

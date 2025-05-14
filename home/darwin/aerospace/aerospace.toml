@@ -220,10 +220,6 @@ if.app-id = 'ru.keepcoder.Telegram'
 run = 'move-node-to-workspace 6Chat'
 
 [[on-window-detected]]
-if.app-id = 'com.tencent.xinWeChat'
-run = 'move-node-to-workspace 6Chat'
-
-[[on-window-detected]]
 if.app-id = 'com.tencent.qq'
 run = 'move-node-to-workspace 6Chat'
 

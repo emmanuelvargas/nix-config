@@ -18,7 +18,7 @@ in {
   home.shellAliases = shellAliases;
 
   programs.nushell = {
-    enable = true;
+    enable = false;
     package = pkgs-unstable.nushell;
     configFile.source = ./config.nu;
     inherit shellAliases;
